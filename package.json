@@ -1,0 +1,19 @@
+{
+  "name": "homework-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json && node index.js",
+    "lint": "tslint index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.13"
+  }
+}
